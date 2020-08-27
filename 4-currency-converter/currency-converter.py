@@ -10,7 +10,7 @@ class Currency_Converter(object):
         master.geometry("300x300")
         
         try:
-            master.iconphoto(False, PhotoImage(file='I:\Web and Programming\Month\\2020\\2.June\\15.Currency converter(27)\icon.png'))
+            master.iconphoto(False, PhotoImage(file='icon.png'))
         except TclError:
             print("Could not open the image")
         #master.call('wm', 'iconphoto', master._w, PhotoImage(file='I:\Web and Programming\Month\\2020\\2.June\\15.Currency converter\icon.png'))
